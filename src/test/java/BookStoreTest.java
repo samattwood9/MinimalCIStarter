@@ -42,8 +42,9 @@ class BookStoreTest {
         assertEquals(book, found, "The found book should be equivalent to the one that was added");
     }
 
-    @Test
+    // TODO: Comment this in an raise a pull request, notice how the failing build is flagged before merging the changes in
+    /* @Test
     void aFailingTest() {
         fail();
-    }
+    } */
 }
