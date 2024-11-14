@@ -56,3 +56,4 @@ Afterwards, your `pom.xml` file should look like this:
     </build>
 </project>
 ```
+This code configures the Maven Surefire Plugin, which is used during the test phase of the build lifecycle to execute the unit tests of an application. It integrates well with continuous integration pipelines, as we will (hopefully) see very soon!
