@@ -69,7 +69,7 @@ After you have created the folders, be sure to commit and push your changes.
 
 After you've created the folder and returned to `github.com/your_user_name/MinimalCIStarter` your repository should look a bit like this:
 
-![Image showing the .github and workflows folders](Screenshot_15-11-2024_10118_github.com.jpeg)
+![Image showing the .github and workflows folders](images/Screenshot_15-11-2024_10118_github.com.jpeg)
 
 ## Step 3
 
@@ -102,11 +102,11 @@ After you have done this, be sure to commit and push your changes.
 
 After you've returned to `github.com/your_user_name/MinimalCIStarter` your should notice an orange circle icon next to your commit message, like this:
 
-![Image showing an orange circle icon next to a commit message](Screenshot_15-11-2024_102331_github.com.jpeg)
+![Image showing an orange circle icon next to a commit message](images/Screenshot_15-11-2024_102331_github.com.jpeg)
 
 After waiting a couple of minutes, refresh the page. You should then notice that orange circle has changed to a green tick, like this:
 
-![Image showing a green tick icon next to a commit message](Screenshot_15-11-2024_10244_github.com.jpeg)
+![Image showing a green tick icon next to a commit message](images/Screenshot_15-11-2024_10244_github.com.jpeg)
 
 ## Step 4
 
@@ -114,11 +114,15 @@ To better understand the value of CI you could now create a pull request to see 
 
 To begin creating a pull request, you should first create a new branch. Do this by clicking the name of your current branch (i.e., main); It should be visible towards the bottom left corner of your the `github.dev` IDE, like this:
 
+![Image showing the current/main branch icon/button](images/Screenshot_15-11-2024_10568_github.dev.jpeg)
 
-After click the button, a pop-up will appear. When it does, select the `Create new branch...` option and enter a name for your branch when prompted. You should then see a dialog that looks like this:
+After clicking the button, a pop-up will appear. When it does, select the `Create new branch...` option and enter a name for your branch when prompted. You should then see a dialog that looks like this:
 
+![Image showing the Switch to branch dialog/button](images/Screenshot_15-11-2024_105713_github.dev.jpeg)
 
-Click the green `Switch to branch` button. After doing this, you should notice that your current branch has changed, with a different branch name being visible towards the bottom left corner, like this:
+Click the green `Switch to Branch` button. After doing this, you should notice that your current branch has changed, with a different branch name being visible towards the bottom left corner, like this:
+
+![Image showing button/icon for the new branch, indicating a successful switch](images/Screenshot_15-11-2024_105748_github.dev.jpeg)
 
 
 
