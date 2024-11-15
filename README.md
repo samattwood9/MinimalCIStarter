@@ -63,10 +63,39 @@ This code configures the Maven Surefire Plugin, which is used during the test ph
 
 Create 2 new folders. The first should be a `.github` folder at the top level of this repository. The second should a `workflows` folder inside the `.github` folder.
 
-Any easy way of doing this is by changing the url that is shown in your browser from `github.com/your_user_name/MinimalCIStarter` to `github/dev/your_user_name/MinimalCIStarter`. Doing this will open up a browser-based version of Visual Studio Code that you can use to create the folders.
+Any easy way of doing this is by changing the url that is shown in your browser from `github.com/your_user_name/MinimalCIStarter` to `github.dev/your_user_name/MinimalCIStarter`. Doing this will open up a browser-based version of Visual Studio Code that you can use to create the folders.
 
 After you have created the folders, be sure to commit and push your changes.
 
 After you've created the folder and returned to `github.com/your_user_name/MinimalCIStarter` your repository should look a bit like this:
 
 ![Image showing the .github and workflows folders](Screenshot_15-11-2024_10118_github.com.jpeg)
+
+## Step 3
+
+Inside your `workflows` folder create a `tests.yml` file. Add the following contents to the file (again, you might like to use `github.dev` to do this):
+
+```
+name: Java CI with Maven
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up JDK 22
+      uses: actions/setup-java@v2
+      with:
+        java-version: 22
+        distribution: 'adopt'
+
+    - name: Run tests
+      run: mvn test
+```
+
+After you have done this, be sure to commit and push your changes.
