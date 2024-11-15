@@ -124,5 +124,30 @@ Click the green `Switch to Branch` button. After doing this, you should notice t
 
 ![Image showing button/icon for the new branch, indicating a successful switch](images/Screenshot_15-11-2024_105748_github.dev.jpeg)
 
+Now that you're on a new branch, make some changes to the code to better understand the value of CI. To do this, navigate to the following file using the Sidebar: `src/test/java/BookStoreTest.java`:
+
+
+After opening this file, scroll down to the end of it and you should notice a test that has been commented out, like this:
+
+```java
+/* @Test
+void aFailingTest() {
+  fail();
+} */
+```
+
+Uncomment this test (which is clearly designed to fail), like this:
+
+```java
+@Test
+void aFailingTest() {
+  fail();
+} 
+```
+
+Now commit and push your changes.
+
+
+
 
 
