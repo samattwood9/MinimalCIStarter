@@ -108,4 +108,17 @@ After waiting a couple of minutes, refresh the page. You should then notice that
 
 ![Image showing a green tick icon next to a commit message](Screenshot_15-11-2024_10244_github.com.jpeg)
 
+## Step 4
+
+To better understand the value of CI you could now create a pull request to see it in action. There are many ways you could do this, but using the `github.dev` interface as detailed below is one option.
+
+To begin creating a pull request, you should first create a new branch. Do this by clicking the name of your current branch (i.e., main); It should be visible towards the bottom left corner of your the `github.dev` IDE, like this:
+
+
+After click the button, a pop-up will appear. When it does, select the `Create new branch...` option and enter a name for your branch when prompted. You should then see a dialog that looks like this:
+
+
+Click the green `Switch to branch` button. After doing this, you should notice that your current branch has changed, with a different branch name being visible towards the bottom left corner, like this:
+
+
 
