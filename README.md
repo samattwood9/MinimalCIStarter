@@ -126,6 +126,7 @@ Click the green `Switch to Branch` button. After doing this, you should notice t
 
 Now that you're on a new branch, make some changes to the code to better understand the value of CI. To do this, navigate to the following file using the Sidebar: `src/test/java/BookStoreTest.java`:
 
+![Image showing the BookStoreTest.java file in the siderbar](images/Screenshot_15-11-2024_111547_github.dev.jpeg)
 
 After opening this file, scroll down to the end of it and you should notice a test that has been commented out, like this:
 
