@@ -99,3 +99,11 @@ jobs:
 ```
 
 After you have done this, be sure to commit and push your changes.
+
+After you've returned to `github.com/your_user_name/MinimalCIStarter` your should notice an orangle circle icon next to your commit message, like this:
+
+
+
+After waiting a couple of minutes, refresh the page. You should then notice that organge circle has changed to a green tick, like this:
+
+
