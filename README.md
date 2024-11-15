@@ -148,6 +148,24 @@ void aFailingTest() {
 
 Now commit and push your changes.
 
+Navigate back to `github.com` and you should notice that a yellow pop-up has appeared towards the top of the page:
+
+![Image showing the yellow pull request pop-up](images/Screenshot_15-11-2024_112214_github.com.jpeg)
+
+Click the green `Compare & pull request` button. After doing this, you should see a screen that looks like this:
+
+![Image showing the yellow pull request pop-up](images/Screenshot_15-11-2024_112236_github.com.jpeg)
+
+Click the green `Create pull request` button. Eventually, you should see that the tests are run automatically, and that the failing test causes the check to fail, like this:
+
+![Image showing the yellow pull request pop-up](images/Screenshot_15-11-2024_112322_github.com.jpeg)
+
+
+
+
+
+
+
 
 
 
