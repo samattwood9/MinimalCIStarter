@@ -1,6 +1,6 @@
 # README
 
-Follow the instructions below to set-up CI for this repository.
+Get started by logging into your GitHub account and clicking the green `Use this template button` to create your own version of this repository. Then, follow the instructions below to set-up CI for this repository.
 
 ## Step 1
 
