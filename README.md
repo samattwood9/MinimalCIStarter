@@ -56,4 +56,15 @@ Afterwards, your `pom.xml` file should look like this:
     </build>
 </project>
 ```
+
 This code configures the Maven Surefire Plugin, which is used during the test phase of the build lifecycle to execute the unit tests of an application. It integrates well with continuous integration pipelines, as we will (hopefully) see very soon!
+
+## Step 2
+
+Create 2 new folders. The first should be a `.github` folder at the top level of this repository. The second should a `workflows` folder inside the `.github` folder.
+
+Any easy way of doing this is by changing the url that is shown in your browser from `github.com/your_user_name/MinimalCIStarter` to `github/dev/your_user_name/MinimalCIStarter`. Doing this will open up a browser-based version of Visual Studio Code that you can use to create the folders.
+
+After you have created the folders, be sure to commit and push your changes.
+
+After you've created the folder and returned to `github.com/your_user_name/MinimalCIStarter` your repository should look a bit like this:
