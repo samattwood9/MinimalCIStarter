@@ -57,7 +57,7 @@ Afterwards, your `pom.xml` file should look like this:
 </project>
 ```
 
-This code configures the Maven Surefire Plugin, which is used during the test phase of the build lifecycle to execute the unit tests of an application. It integrates well with continuous integration pipelines, as we will (hopefully) see very soon!
+🧠 **Explanation (why are we doing this):** This code configures the Maven Surefire Plugin, which is used during the test phase of the build lifecycle to execute the unit tests of an application. It integrates well with continuous integration pipelines, as we will (hopefully) see very soon!
 
 ## Step 2
 
@@ -70,6 +70,8 @@ After you have created the folders, be sure to commit and push your changes.
 After you've created the folder and returned to `github.com/your_user_name/MinimalCIStarter` your repository should look a bit like this:
 
 ![Image showing the .github and workflows folders](images/Screenshot_15-11-2024_10118_github.com.jpeg)
+
+🧠 **Explanation (why are we doing this):** The `.github` folder is used to store configuration files specific to GitHub. The `workflows` folder inside the `.github` folder is specifically for storing workflow files. These files define the automated processes that GitHub Actions will run as a part of our CI pipeline. As we will see in the next step, each workflow is defined in a separate YAML file and can include steps for building, testing, and deploying your code, among other tasks.
 
 ## Step 3
 
@@ -107,6 +109,8 @@ After you've returned to `github.com/your_user_name/MinimalCIStarter` your shoul
 After waiting a couple of minutes, refresh the page. You should then notice that orange circle has changed to a green tick, like this:
 
 ![Image showing a green tick icon next to a commit message](images/Screenshot_15-11-2024_10244_github.com.jpeg)
+
+🧠 **Explanation (why are we doing this):** In this crucial step we have defined a workflow that will run as a part of our CI pipeline. In the workflow we make use of some existing actions to checkout the code and set-up the relevant JDK (i.e., `uses: actions/checkout@v2` and `uses: actions/setup-java@v2`) before running our tests with `run: mvn test`.
 
 ## Step 4
 
@@ -159,6 +163,12 @@ Click the green `Compare & pull request` button. After doing this, you should se
 Click the green `Create pull request` button. Eventually, you should see that the tests are run automatically, and that the failing test causes the check to fail, like this:
 
 ![Image showing the yellow pull request pop-up](images/Screenshot_15-11-2024_112322_github.com.jpeg)
+
+🧠 **Explanation (why are we doing this):** We completed setting-up our workflow/CI pipeline in the previous step. Here, we have gone through the process of raising a pull request that includes a deliberately failing test to demonstrate the value of CI. Notice how the failing test is automatically and clearly flagged before the changes are merged into the main/production branch.
+
+## 🥇 Step 5
+
+ Well done. You have have now completed this learning activity. Be sure to ask the facilitator if anything was unclear (a fully worked example is available: https://github.com/samattwood9/MinimalCI).
 
 
 
