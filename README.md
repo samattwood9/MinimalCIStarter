@@ -100,10 +100,12 @@ jobs:
 
 After you have done this, be sure to commit and push your changes.
 
-After you've returned to `github.com/your_user_name/MinimalCIStarter` your should notice an orangle circle icon next to your commit message, like this:
+After you've returned to `github.com/your_user_name/MinimalCIStarter` your should notice an orange circle icon next to your commit message, like this:
 
+![Image showing an orange circle icon next to a commit message](Screenshot_15-11-2024_102331_github.com.jpeg)
 
+After waiting a couple of minutes, refresh the page. You should then notice that orange circle has changed to a green tick, like this:
 
-After waiting a couple of minutes, refresh the page. You should then notice that organge circle has changed to a green tick, like this:
+![Image showing a green tick icon next to a commit message](Screenshot_15-11-2024_10244_github.com.jpeg)
 
 
