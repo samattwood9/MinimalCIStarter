@@ -68,3 +68,5 @@ Any easy way of doing this is by changing the url that is shown in your browser 
 After you have created the folders, be sure to commit and push your changes.
 
 After you've created the folder and returned to `github.com/your_user_name/MinimalCIStarter` your repository should look a bit like this:
+
+![Image showing the .github and workflows folders](Screenshot_15-11-2024_10118_github.com.jpeg)
